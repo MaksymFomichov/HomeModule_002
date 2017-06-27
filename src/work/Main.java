@@ -17,9 +17,11 @@ public class Main {
         city = scanner.nextLine();
         System.out.println("Введите Ваш возраст");
         age = scanner.nextInt();
+        scanner.nextLine();
         System.out.println("Введите Ваше хобби");
         hobby = scanner.nextLine();
 
+        System.out.println("------------------------");
         System.out.println("Имя: " + name);
         System.out.println("Город: " + city);
         System.out.println("Возраст: " + age);

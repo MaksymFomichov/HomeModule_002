@@ -20,6 +20,10 @@ public class Main {
         System.out.println("Введите Ваше хобби");
         hobby = scanner.nextLine();
 
+        System.out.println("Имя: " + name);
+        System.out.println("Город: " + city);
+        System.out.println("Возраст: " + age);
+        System.out.println("Хобби " + hobby);
         
 
 

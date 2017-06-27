@@ -11,14 +11,14 @@ public class Main {
         int age;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите Ваше имя");
+        System.out.println("Введите Ваше имя:");
         name = scanner.nextLine();
-        System.out.println("Введите Ваш город проживания");
+        System.out.println("Введите Ваш город проживания:");
         city = scanner.nextLine();
-        System.out.println("Введите Ваш возраст");
+        System.out.println("Введите Ваш возраст:");
         age = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("Введите Ваше хобби");
+        System.out.println("Введите Ваше хобби:");
         hobby = scanner.nextLine();
 
         System.out.println("------------------------");

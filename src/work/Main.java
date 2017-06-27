@@ -27,6 +27,10 @@ public class Main {
         System.out.println("------------------------");
         System.out.println("Человек по имени " + name + " живёт в городе " + city + ".");
         System.out.println("Этому человеку " + age + " лет и любит он заниматься " + hobby + ".");
-
+        System.out.println("------------------------");
+        System.out.println(name + " - имя");
+        System.out.println(city + " - город");
+        System.out.println(age + " - возраст");
+        System.out.println(hobby + " - хобби");
     }
 }
